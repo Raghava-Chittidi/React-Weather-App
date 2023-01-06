@@ -1,0 +1,12 @@
+.forecast {
+    margin-top: 1rem;
+}
+
+.forecastName {
+    text-align: left;
+}
+
+.forecastItems {
+    display: grid;
+    grid-template-columns: repeat(5, auto)
+}

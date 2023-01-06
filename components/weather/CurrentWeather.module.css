@@ -1,0 +1,49 @@
+.current {
+  text-align: center;
+}
+
+.description {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.mainDetails {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row: auto;
+  justify-content: space-around;
+  width: 47vw;
+}
+
+.temp {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.85rem;
+}
+
+.stats {
+  font-size: 0.9rem;
+  float: right;
+}
+
+.statsDetails {
+  width: fit-content;
+  display: flex;
+}
+
+.subDetails {
+  display: flex;
+  font-size: 0.95rem;
+}
+
+.wind::after {
+  content: "h";
+  text-transform: lowercase;
+}

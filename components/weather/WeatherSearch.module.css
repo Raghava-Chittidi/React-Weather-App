@@ -1,0 +1,48 @@
+.search {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .input {
+    width: 100%;
+  }
+}
+
+.input:focus{
+  outline: none;
+}
+
+.button,
+.input {
+  color: white;
+  background-color: rgb(27, 27, 27);
+  font-size: 1.25rem;
+  border-radius: 5px;
+  margin: 5px;
+  border: solid 1px rgb(27, 27, 27);
+}
+
+.button {
+  color: rgb(255, 255, 255, 0.8);
+  padding: 0.5rem 0.8rem;
+  margin-left: 1rem;
+  width: 6rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+}
+
+.message {
+  display: flex;
+  color: white;
+  font-size: 1.5rem;
+  justify-content: center;
+}

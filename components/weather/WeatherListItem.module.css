@@ -1,0 +1,82 @@
+.item {
+  margin-top: 1rem;
+  list-style: none;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.card {
+  color: white;
+  background-color: black;
+  width: 100%;
+}
+
+.card h1,
+.card h2 {
+  margin: 0;
+  width: fit-content;
+}
+
+.card h2 {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+}
+
+.favourite {
+  position: absolute;
+  left: 60%;
+  width: fit-content;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.icon {
+  text-align: left;
+  padding: 0.25rem;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.icon span {
+  margin-right: 0.5rem;
+}
+
+.icon img {
+  width: 3rem;
+  padding: 0;
+}
+
+.wind::after {
+  content: "h";
+  text-transform: lowercase;
+}
+
+.description {
+  padding: 0.25rem;
+  width: fit-content;
+}
+
+.actions {
+  position: relative;
+  bottom: 5%;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  color: #ff0062;
+  border-color: #ff0062;
+}

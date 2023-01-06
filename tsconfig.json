@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/UI/Card.js", "components/hooks/use-city.js", "components/layout/MainNavigation.js", "components/layout/Layout.js", "pages/_app.js", "pages/index.js", "components/weather/WeatherListItem.js", "components/weather/FavouriteWeatherList.js"],
   "exclude": ["node_modules"]
 }

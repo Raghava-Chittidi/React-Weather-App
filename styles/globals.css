@@ -24,3 +24,9 @@ a {
     background: black;
   }
 }
+
+html {
+  height: 100%;
+  background-attachment: fixed;
+  background-color: rgb(88, 105, 148);
+}
