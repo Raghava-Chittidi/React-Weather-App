@@ -54,8 +54,8 @@ const useCity = () => {
       const coordResponse = await fetch(getCoordUrl + API_KEY);
       const coordData = await coordResponse.json();
 
-      const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${coordData.coord.lat}&lon=${coordData.coord.lon}&appid=a8a155e0e1403a3d675335d9b9258d3f`;
-      const weatherResponse = await fetch(weatherUrl);
+      const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${coordData.coord.lat}&lon=${coordData.coord.lon}&appid=`;
+      const weatherResponse = await fetch(weatherUrl + API_KEY);
       const weatherData = await weatherResponse.json();
 
       setIsLoading(false);
